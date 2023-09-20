@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fafafa;
+            color: #202020
+        }
+
+        .link-box {
+            background-color: #2491da; /* Background color for the boxes */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px; /* Padding inside the boxes */
+            margin: 10px auto; /* Spacing between boxes */
+            transition: background-color 0.3s ease; /* Smooth color transition on hover */
+        }
+
+        @media (min-width: 1024px) { /* Adjust width for bigger screens */
+            .link-box {
+                width: 50%; 
+            }
+        }
+
+        @media (min-width: 600px) and (max-width: 1024px) { /* Adjust width for not so bigger screens */
+            .link-box {
+                width: 75%; 
+            }
+        }
+
+        .link-box:hover {
+            background-color: #1979b9; /* Background color on hover */
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff; /* Text color for links inside the boxes */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Index Page</h1>
+    <div class="link-box">
+        <a href="multiline_project.html">Multiline</a>
+    </div>
+    <div class="link-box">
+        <a href="sweet_lift_taxi_project.html">Sweet Lift Taxi</a>
+    </div>
+    <div class="link-box">
+        <a href="telecom_project.html">Telecom</a>
+    </div>
+</body>
+</html>
