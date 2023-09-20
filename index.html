@@ -20,13 +20,13 @@
             transition: background-color 0.3s ease; /* Smooth color transition on hover */
         }
 
-        @media (min-width: 1024px) { /* Adjust width for bigger screens */
+        @media (width >= 1024px) { /* Adjust width for bigger screens */
             .link-box {
                 width: 50%; 
             }
         }
 
-        @media (min-width: 600px) and (max-width: 1024px) { /* Adjust width for not so bigger screens */
+        @media (600px <= width <= 1024px) { /* Adjust width for not so bigger screens */
             .link-box {
                 width: 75%; 
             }
