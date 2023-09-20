@@ -5,3 +5,5 @@
 |     Sweet Lift Taxi      | Modelo de predicción del número de taxis que se han de pedir en la siguiente hora |
 |     Telecom      | Modelo de predicción de clientes que estén próximos a cancelar su plan contratado |
 |     MultiLine      | Comparación de ingresos totales entre dos planes prepago, aplicando prueba de hipótesis |
+
+Sitio web con estos proyectos: https://marie0394.github.io/TripleTen_Data_Science/
